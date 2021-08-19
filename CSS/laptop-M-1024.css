@@ -1,0 +1,105 @@
+@media (max-width:1024px) {
+    .socialLink {
+        display: none;
+    }
+    ul.menu {
+        list-style: none;
+        margin-left: 45px;
+        margin-top: 25px;
+        width: 98%;
+    }
+    ul.menu li {
+        float: left;
+        margin-right: 49px;
+        font-size: 17px;
+    }
+    .main-img-bg {
+        background-image: url("../All_Image/mainimg.jpg");
+        height: 100%;
+        background-size: 60% 100%;
+        background-repeat: no-repeat;
+    }
+    .main-img-bio-text {
+        width: 550px;
+        padding: 10px;
+        position: relative;
+        left: 130px;
+        top: 100px;
+    }
+    .skill-text {
+        position: absolute;
+        left: -440px;
+        transition: 0.4s;
+        top: 130px;
+    }
+    .skill-text h3 {
+        font-family: "Tourney", cursive;
+        font-size: 30px;
+        color: white;
+        background: black;
+        padding: 5px;
+    }
+    .portfolioWrap {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+    .portfolioImg img {
+        transition: 0.3s;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .icon {
+        margin-right: 10px;
+        font-size: 25px;
+        color: #5555ff;
+    }
+    .data {
+        font-size: 19px;
+    }
+    .contectWrap {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .contectImage {
+        margin: auto;
+    }
+    .contectInputWrap {
+        margin: auto;
+        width: 84%;
+    }
+    .footerWrap {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+    .footerInfo {
+        width: initial;
+        margin-right: 40px;
+        margin-left: 30px;
+    }
+    .footerMenu {
+        width: initial;
+        margin-right: 40px;
+        margin-left: 30px;
+    }
+    .footerContect {
+        width: initial;
+        margin-right: 40px;
+        margin-left: 30px;
+    }
+    .footerSocial {
+        width: initial;
+        margin-right: 40px;
+        margin-left: 30px;
+    }
+    .footerSocial ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -70px;
+    }
+}

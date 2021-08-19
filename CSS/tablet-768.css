@@ -1,0 +1,145 @@
+@media (max-width:768px) {
+    .main-img-bg {
+        background-image: url("../All_Image/mainimg.jpg");
+        height: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    section#simpleBio {
+        width: 100%;
+        margin: auto;
+    }
+    .main-img-bio-text {
+        width: 550px;
+        padding: 10px;
+        position: relative;
+        left: 130px;
+        top: 30px;
+    }
+    .title-text h1 {
+        font-size: 55px;
+        font-family: "Zen Tokyo Zoo", cursive;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    .skills-wrap {
+        column-count: 2;
+        width: 98%;
+        margin: auto;
+    }
+    .skill-text {
+        position: absolute;
+        left: -440px;
+        transition: 0.4s;
+        top: 155px;
+    }
+    .aboutWrap {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .aboutImage {
+        width: 30%;
+    }
+    .aboutInfo {
+        margin-left: -75px;
+        width: 70%;
+    }
+    .contectTitle {
+        font-size: 35px;
+        margin: 0px 0px 40px 0px;
+        font-family: 'DM Sans', sans-serif;
+        text-align: justify;
+    }
+    .contectInput {
+        margin-left:40px;
+    }
+    div#contectNameInput input{
+        width: 100% !important;
+    }
+    #contectEmailInput input{
+        width: 100% !important;
+    }
+    #contectNumberInput input{
+        width: 100% !important;
+    }
+    #contectMessageInput textarea{
+        width: 100% !important;
+    }
+    .contectInput {
+        margin-left: 0px;
+        width: 90%;
+    }
+    .contactButton a {
+        margin-left: 0;
+        background: tomato;
+        padding: 10px 20px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Potta One';
+        transition: 0.4s;
+    }
+    ul.menu {
+        list-style: none;
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 200px;
+        position: absolute;
+        background: #808080ad;
+        top: 102px;
+        left: 313px;
+        padding: 20px;
+        z-index: 1;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: 0.2s;
+    }
+    .mainmenushow{
+        transform: scaleY(1) !important;
+    }
+    ul.menu li {
+        float: initial;
+        margin-right: 0px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    ul.menu li a {
+        text-decoration: none;
+        font-family: monospace;
+        transition: 0.2s;
+        color: white !important;
+    }
+    .container {
+        width: 1590px;
+        margin: auto;
+        display: flex;
+        border-bottom: 2px solid black;
+    }
+    .mainMenu{
+        position: relative;
+    }
+    .bar {
+        display: initial;
+        position: absolute;
+        top: 20px;
+        font-size: 60px;
+        left: 500px;
+        cursor: pointer;
+    }
+    .active{
+        color: tomato !important;
+    }
+    .preLoader {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background: white;
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 80px;
+    }
+}

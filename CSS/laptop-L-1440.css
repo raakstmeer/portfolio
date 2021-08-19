@@ -1,0 +1,103 @@
+@media (max-width:1440px) {
+    ul.menu {
+        list-style: none;
+        margin-left: 70px;
+        margin-top: 25px;
+        width: 98%;
+    }
+    .socialLink ul {
+        list-style: none;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+    .main-img-bg {
+        background-image: url("../All_Image/mainimg.jpg");
+        height: 100%;
+        background-size: 90% 100%;
+        background-repeat: no-repeat;
+    }
+    .service-wrap {
+        width: 100%;
+        margin: auto;
+    }
+    .title-text {
+        padding: 50px 0px;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .skills-wrap {
+        column-count: 3;
+        width: 98%;
+        margin: auto;
+    }
+    .skill-text {
+        position: absolute;
+        left: -440px;
+        transition: 0.4s;
+        top: 180px;
+    }
+    .latest-project-slider {
+        width: 100%;
+        margin: auto;
+    }
+    .portfolioWrap {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: auto;
+    }
+    .aboutWrap {
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
+    .aboutInfo {
+        margin-left: -75px;
+    }
+    section#contect {
+        width: 100%;
+        margin: auto;
+    }
+    .contactButton a {
+        margin-left: 95px;
+        background: tomato;
+        padding: 10px 20px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Potta One';
+        transition: 0.4s;
+    }
+    .contectInput {
+        margin-left: 95px;
+    }
+    .contectTitle {
+        font-size: 35px;
+        margin: 0px 0px 40px 95px;
+        font-family: 'DM Sans', sans-serif;
+        text-align: justify;
+    }
+    .footerWrap {
+        display: flex;
+        justify-content: space-between;
+        width: 1401px;
+        margin: auto;
+    }
+    footer#footer {
+        background-image: url("../All_Image/footerbg.png");
+        background-repeat: repeat-x;
+        background-size: 100%;
+        width: 100%;
+        margin: auto;
+    }
+    .contectWrap {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .portfolioImg img {
+        transition: 0.3s;
+        width: 100%;
+    }
+}

@@ -1,0 +1,898 @@
+@import url("https://fonts.googleapis.com/css2?family=Festive&display=swap");
+
+/*font-family: 'Festive', cursive;*/
+
+@import url("https://fonts.googleapis.com/css2?family=Yomogi&display=swap");
+
+/* font-family: 'Yomogi', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+
+/*font-family: 'Zen Tokyo Zoo', cursive;*/
+
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
+
+/* font-family: 'Yanone Kaffeesatz', sans-serif;*/
+
+@import url("https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*font-family: 'Tourney', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+
+/* font-family: 'Otomanopee One', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap");
+
+/* font-family: 'Playfair Display', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+/* font-family: 'DM Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+/* font-family: 'Potta One', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+
+.logo {
+    font-family: "Festive", cursive;
+    font-size: 30px;
+}
+
+ul.menu {
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+ul.menu li {
+    float: left;
+    margin-right: 49px;
+    font-size: 23px;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    transition: 0.2s;
+}
+
+.socialLink ul {
+    list-style: none;
+    margin-top: 25px;
+    margin-left: 140px;
+}
+
+.socialLink ul li {
+    float: left;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.socialLink ul li a {
+    color: black;
+    transition: 0.2s;
+}
+
+.active {
+    color: tomato !important;
+}
+
+ul.menu li a:hover {
+    color: tomato;
+}
+
+.socialLink ul li a:hover {
+    color: tomato !important;
+}
+
+section#simpleBio {
+    height: 550px;
+    width: 80%;
+    margin: auto;
+}
+
+.main-img-bg {
+    background-image: url("../All_Image/mainimg.jpg");
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.main-img-bio-text {
+    width: 550px;
+    padding: 10px;
+    position: relative;
+    left: 450px;
+    top: 100px;
+}
+
+.main-img-bio-text span {
+    font-family: arial;
+}
+
+.main-img-bio-text h1 {
+    font-family: "Yomogi", cursive;
+    font-size: 83px;
+    line-height: 100px;
+    font-weight: 900;
+    margin-top: 45px;
+}
+
+.main-img-bio-text h1 span {
+    color: red;
+    font-size: 100px;
+}
+
+.title-text h1 {
+    font-size: 80px;
+    font-family: "Zen Tokyo Zoo", cursive;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.title-text {
+    padding: 50px 0px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.service-wrap {
+    width: 85%;
+    margin: auto;
+}
+
+.service-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+
+.service-text h1 {
+    font-size: 50px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+
+.my-services ul {
+    list-style: decimal-leading-zero;
+}
+
+.my-services ul li {
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: arial;
+    color: gray;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.service-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+
+.service-footer-para {
+    width: 420px;
+    font-size: 18px;
+    color: gray;
+    font-family: arial;
+    line-height: 25px;
+    word-spacing: 10px;
+    text-align: justify;
+}
+
+.service-img {
+    width: 35%;
+}
+
+.service-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.my-services ul li:hover {
+    color: black;
+}
+
+.skills-wrap {
+    column-count: 3;
+    width: 85%;
+    margin: auto;
+}
+
+.skill-img img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.skill-img {
+    width: 98%;
+}
+
+.skill-img img:hover {
+    transform: rotateZ(7deg) scale(1.07);
+}
+
+.skill-img {
+    overflow: hidden;
+    position: relative;
+}
+
+.skill-text {
+    position: absolute;
+    left: -440px;
+    transition: 0.4s;
+    top: 225px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill-text h3 {
+    font-family: "Tourney", cursive;
+    font-size: 45px;
+    color: white;
+    background: black;
+    padding: 5px;
+}
+
+.skill-img:hover .skill-text {
+    left: 15px;
+}
+
+
+/* section#skills {
+  height: 850px;
+} */
+
+.latest-project-slider {
+    width: 85%;
+    margin: auto;
+}
+
+button.slick-prev {
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #ff00008a;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    z-index: 999;
+    color: black;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+button.slick-next {
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #ff00008a;
+    position: absolute;
+    top: 120px;
+    right: 30px;
+    z-index: 999;
+    color: black;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+
+/* 
+button.slick-next:before {
+    content: "";
+    width: 30%;
+    height: 35%;
+    background: red;
+    position: absolute;
+    top: 34px;
+    z-index: -999;
+} */
+
+.slick-prev i {
+    transition: 0.3s;
+}
+
+.slick-next i {
+    transition: 0.3s;
+}
+
+.slick-prev:hover i {
+    color: tomato;
+}
+
+.slick-next:hover i {
+    color: tomato;
+}
+
+.experienceSlider {
+    /* column-count: 3; */
+    display: flex !important;
+    justify-content: space-around;
+}
+
+ul.slick-dots {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+ul.slick-dots li {
+    float: left;
+    /* position: relative; */
+    /* top: 0px; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    margin-right: 22px !important;
+}
+
+ul.slick-dots li button {
+    outline: none;
+    border: none;
+    background: none !important;
+    cursor: pointer;
+}
+
+ul.slick-dots li button:hover {
+    color: tomato;
+    transition: 0.4s;
+}
+
+.experienceSliderWrap {
+    width: 85%;
+    margin: auto;
+}
+
+.experienceSliderTitleInfo {
+    width: 300px;
+    font-size: 18px;
+    color: gray;
+}
+
+.experienceSliderimg {
+    display: flex;
+    justify-content: space-around;
+}
+
+.experienceSliderimg img {
+    margin-right: 25px;
+}
+
+.portfolioWrap {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+}
+
+.portfolioImg img:hover {
+    transform: scale(1.1);
+    box-shadow: -5px 5px 12px 10px #0000005e;
+}
+
+.portfolioImg img {
+    transition: 0.3s;
+}
+
+
+/* text warp and show style */
+
+.animationDiv {
+    position: relative;
+}
+
+.animationDiv h1 {
+    font-size: 50px;
+    font-family: "Otomanopee One", sans-serif;
+}
+
+.text {
+    width: 13ch;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 14px;
+    left: 132px;
+    font-size: 38px;
+    border-right: 2px solid black;
+    animation: subtext 14s steps(14) infinite;
+    display: none;
+    font-family: "Otomanopee One", sans-serif;
+    color: tomato !important;
+}
+
+.maintext {
+    width: 12ch;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 14px;
+    left: 132px;
+    font-size: 38px;
+    border-right: 2px solid black;
+    animation: text 12s steps(12) infinite;
+    display: initial;
+    font-family: "Otomanopee One", sans-serif;
+    color: tomato !important;
+}
+
+@keyframes subtext {
+    0% {
+        width: 0ch;
+    }
+    25% {
+        width: 15ch;
+    }
+    50% {
+        width: 0ch;
+    }
+    75% {
+        width: 15ch;
+    }
+    100% {
+        width: 0ch;
+    }
+}
+
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+    25% {
+        width: 15ch;
+    }
+    50% {
+        width: 0ch;
+    }
+    75% {
+        width: 15ch;
+    }
+    100% {
+        width: 0ch;
+    }
+}
+
+
+/* stop wrap word and show style */
+
+.aboutWrap {
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+
+.aboutInfo-Title {
+    padding: 30px 0px;
+}
+
+.aboutInfo-para {
+    font-family: "Playfair Display", serif;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.aboutInformation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutInformation-left-1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 30px;
+    color: #5555ff;
+}
+
+.data {
+    font-size: 30px;
+}
+
+.data span {
+    font-weight: 700;
+    color: tomato;
+}
+
+.aboutInformation {
+    margin-top: 50px;
+}
+
+.icon,
+.data {
+    font-family: "DM Sans", sans-serif;
+}
+
+.aboutButton {
+    margin-top: 30px;
+}
+
+.aboutButton {
+    font-size: 30px;
+    background: #5555ff;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 999;
+    display: inline-block;
+}
+
+.aboutButton a {
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+    transition-delay: 0.1s;
+}
+
+.aboutButton:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: tomato;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    transition: 0.4s;
+    transform: scale(0, 1);
+    transform-origin: right;
+    transition: transform 300ms cubic-bezier(0.79, 0.01, 0, 0.99);
+}
+
+.aboutButton:hover:before {
+    transform: scale(1, 1);
+    transform-origin: left;
+}
+
+.aboutButton a span {
+    position: relative;
+    z-index: 999;
+}
+
+.aboutButton:hover a {
+    color: white;
+    transition-delay: 0.1s;
+}
+
+section#contect {
+    width: 1590px;
+    margin: auto;
+    background: white;
+}
+
+.contectWrap {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+.contectImage img {
+    border-radius: 10px;
+}
+
+.contectInput h1 {
+    font-size: 50px;
+}
+
+.contectTitle {
+    font-size: 35px;
+    margin: 0px 0px 40px 250px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: justify;
+}
+
+.contectTitle h1 span {
+    color: tomato;
+}
+
+.contectInput {
+    margin-left: 250px;
+}
+
+div#contectNameInput {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+div#contectNameInput input {
+    padding: 12px 12px 12px 40px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 0px;
+    border: 1px solid black;
+    width: 680px;
+}
+
+div#contectEmailInput input {
+    padding: 12px 12px 12px 40px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 0px;
+    border: 1px solid black;
+    width: 680px;
+}
+
+div#contectEmailInput {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+div#contectMessageInput {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+div#contectMessageInput textarea {
+    padding: 12px 12px 12px 40px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 0px;
+    border: 1px solid black;
+    width: 680px;
+    resize: none;
+    font-family: sans-serif;
+}
+
+div#contectNumberInput {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+div#contectNumberInput input {
+    padding: 12px 12px 12px 40px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 0px;
+    border: 1px solid black;
+    width: 680px;
+    appearance: none !important;
+}
+
+div#contectNameInput i {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: gray;
+}
+
+div#contectEmailInput i {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: gray;
+}
+
+div#contectNumberInput i {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: gray;
+}
+
+div#contectMessageInput i {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: gray;
+}
+
+input::-moz-outer-spin-button,
+input::-moz-inner-spin-button {
+    appearance: none;
+}
+
+.contactButton a {
+    margin-left: 250px;
+    background: tomato;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Potta One';
+    transition: 0.4s;
+}
+
+.contactButton a:hover {
+    background-color: black;
+}
+
+.footerWrap {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 1590px;
+    margin: auto;
+}
+
+footer#footer {
+    background-image: url("../All_Image/footerbg.png");
+    background-repeat: repeat-x;
+    background-size: 100%;
+    width: 85%;
+    margin: auto;
+}
+
+.footerInfo {
+    width: 25%;
+    margin-right: 40px;
+}
+
+.footerInfo h1 {
+    font-size: 50px;
+    font-family: 'Potta One';
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.footerInfo p {
+    font-size: 18px;
+    font-family: 'DM Sans';
+    text-align: justify;
+}
+
+.footerMenu h1 {
+    font-size: 50px;
+    font-family: 'Potta One';
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.footerMenu ul {
+    list-style: none;
+}
+
+.footerMenu ul li {
+    margin-bottom: 18px;
+    font-size: 25px;
+}
+
+.footerMenu ul li a {
+    text-decoration: underline;
+    color: black;
+    font-family: 'DM Sans';
+}
+
+.footerContect h1 {
+    font-size: 50px;
+    font-family: 'Potta One';
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+div#phone {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'DM Sans';
+}
+
+div#home {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'DM Sans';
+}
+
+.footerMenu {
+    width: 12%;
+}
+
+.footerSocial {
+    width: 30%;
+}
+
+.footerContect {
+    width: 30%;
+}
+
+div#mail input {
+    border: 1px solid tomato;
+    outline: none;
+    background: none;
+    padding: 9px 62px 11px 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+div#mail a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'DM Sans';
+    background: tomato;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -60px;
+    transition: 0.4s;
+}
+
+div#mail a:hover {
+    background: rgb(23, 11, 27);
+}
+
+.footerSocial h1 {
+    font-size: 50px;
+    font-family: 'Potta One';
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.footerSocial ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -70px;
+}
+
+.footerSocial ul li {
+    margin-bottom: 18px;
+    font-size: 25px;
+}
+
+.footerSocial ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'DM Sans';
+    transition: 0.3s;
+}
+
+.footerSocial ul li a:hover {
+    color: tomato;
+}
+
+.bar {
+    display: none;
+}
+
+section#services {
+    width: 90%;
+    margin: auto;
+}
